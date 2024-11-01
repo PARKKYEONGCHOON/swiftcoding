@@ -2,12 +2,8 @@ import Foundation
 
 func solution(_ number:Int, _ n:Int, _ m:Int) -> Int {
 
-    return num.isMultiple(of: n) && num.isMultiple(of: m) ? 1 : 0
+    return number.isMultiple(of: n) && number.isMultiple(of: m) ? 1 : 0
 }
-
-
-
-
 
 
 // 문제 설명
